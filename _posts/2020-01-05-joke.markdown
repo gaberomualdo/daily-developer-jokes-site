@@ -2,12 +2,12 @@
 date: 2020-01-05
 title: 'Joke'
 joke: >
-  **Q:** Why was the computer freezing?
+  **Q:** Why didn't the `<div />` get invited to the dinner party?
   
-  **A:** It left its Windows open!
+  **A:** Because it had no class!
 ---
 
-![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e0f9cefd5e42.png)
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e0f9d4688df2.png)
 
 ---
 *Have a joke idea for a future post? Leave a comment or email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
@@ -16,8 +16,8 @@ joke: >
 
 <!-- 
 Joke text:
-**Q:** Why was the computer freezing?
+**Q:** Why didn't the `<div />` get invited to the dinner party?
 
-**A:** It left its Windows open!
+**A:** Because it had no class!
  -->
 
