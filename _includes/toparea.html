@@ -1,0 +1,108 @@
+<style>
+
+div.toparea {
+    display: block;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+div.toparea > h1 {
+    font-size: 3rem;
+    letter-spacing: -.075rem;
+}
+div.toparea > p {
+    font-size: 1.25rem;
+    opacity: .5;
+    margin-top: .5rem;
+    display: block;
+}
+
+div.toparea > div.row {
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+div.toparea > div.row > p.left {
+    float: left;
+}
+div.toparea > div.row > p.right {
+    float: right;
+}
+
+
+@media only screen and (max-width: 750px) {
+    div.toparea h1 {
+        font-size: 2.5rem;
+    }
+    div.toparea > p {
+        font-size: 1.125rem;
+    }
+}
+div.toparea > input {
+    width: 100%;
+    font-size: 1.125rem;
+    box-sizing: border-box;
+    padding: .75rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: transform .2s, border-color .2s, background-color .2s, box-shadow .2s;
+    outline: none;
+    margin-top: 1.5rem;
+}
+div.toparea > input::placeholder {
+    color: #888;
+}
+div.toparea > input:focus {
+    transform: scale(1.02);
+    border-color: #666;
+    background-color: #fcfcfc;
+    box-shadow: 0 .125rem .5rem rgba(0,0,0,.1);
+}
+
+</style>
+
+<div class="toparea">
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.short_description }}</p>
+    <div class="row">
+        <p class="left">Created by <a href="{{ site.author_url }}">{{ site.author }}</a></p>
+        <p class="right">Read about at <a href="{{ site.blog_post }}">this blog post</a></p>
+    </div>
+    <input type="text" placeholder="Search {{ site.posts | size }} Developer Jokes..." oninput="updateSearch(this.value);" spellcheck="false">
+</div>
+
+<script>
+
+/* search */
+const jokes = [
+    {% for post in site.posts %}
+    {
+        "date": "{{ post.date | date: "%A, %B %-d, %Y" }}",
+        "joke": "{{ post.joke | markdownify | strip_html | strip_newlines }}"
+    },
+    {% endfor %}
+];
+
+const updateSearch = (query) => {
+    // lower case
+    query = query.toLowerCase();
+
+    // list of block elements
+    const blocks = Array.from(document.querySelectorAll("div.block"));
+
+    // loop through each block and get rid of any classes
+    blocks.forEach((item, index) => {
+        item.classList.remove("not_displayed");
+    });
+
+    // loop through each joke and handle according to search query
+    jokes.forEach((joke, index) => {
+        // if query does not match, don't display
+        if((joke.date.toLowerCase().indexOf(query) == -1) && (joke.joke.toLowerCase().indexOf(query) == -1)) {
+            blocks[index].classList.add("not_displayed");
+        }
+    });
+}
+
+
+
+</script>

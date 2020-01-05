@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% include toparea.html %}
+
+<ul class="posts">
+    {% for post in site.posts %}
+        {% include block.html %}
+    {% endfor %}
+
+    {% assign psize = site.posts | size %}
+    {% if psize == 0 %} 
+    <p style="font-size: 1.5rem; font-weight: bold; letter-spacing: -.05rem; text-align: center;">Jokes are coming on January 12, 2020!</p>
+    {% endif %}
+</ul>

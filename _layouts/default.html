@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-family: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #27f;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #23f;
+    text-decoration: underline;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #222222;
+}
+
+div.container {
+    width: 750px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+    box-sizing: border-box;
+    height: auto;
+    overflow: hidden;
+}
+@media only screen and (max-width: 750px) {
+    div.container {
+        width: 100%;
+    }
+}
+
+</style>
+
+<body>
+    <div class="container">
+        {{ content }}
+    </div>
+</body>
+</html>
