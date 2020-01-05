@@ -1,0 +1,23 @@
+---
+date: 2020-01-05
+title: 'Joke'
+joke: >
+  **Q:** Why was the computer freezing?
+  
+  **A:** It left its Windows open!
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e0f9cefd5e42.png)
+
+---
+*Have a joke idea for a future post? Leave a comment or email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** Why was the computer freezing?
+
+**A:** It left its Windows open!
+ -->
+
