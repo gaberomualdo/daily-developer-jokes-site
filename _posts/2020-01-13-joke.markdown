@@ -1,0 +1,23 @@
+---
+date: 2020-01-13
+title: 'Joke'
+joke: >
+  ___Q:___ An Agent died unexpectedly. How was the crime solved?
+  
+  ___A:___ By looking at the Stack Trace.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e125947cfb29.png)
+
+---
+*Have a joke idea for a future post? Email ___[xtrp@xtrp.io](mailto:xtrp@xtrp.io)___ with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+___Q:___ An Agent died unexpectedly. How was the crime solved?
+
+___A:___ By looking at the Stack Trace.
+ -->
+
