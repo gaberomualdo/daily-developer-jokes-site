@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daily Developer Jokes</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Fred Adams">
+    <meta name="description" content="Developer jokes and programming humor posted every day at 8:00 AM EST.">
+    
+    <meta name="twitter:card" content="summary">
+
+    <meta name="twitter:title" content="Daily Developer Jokes">
+    <meta name="twitter:description" content="Developer jokes and programming humor posted every day at 8:00 AM EST.">
+
+    <meta property="og:title" content="Daily Developer Jokes">
+    <meta property="og:site_name" content="Daily Developer Jokes">
+    <meta property="og:description" content="Developer jokes and programming humor posted every day at 8:00 AM EST.">
+
+        
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="application/ld+json">
+    {
+        "@type": "WebSite",
+        "@context": "http://schema.org",
+        "url": "https://dailydeveloperjokes.github.io/",
+        "name": "Daily Developer Jokes",
+        "author": {
+            "@type": "Person",
+            "name": "Fred Adams"
+        },
+        "sameAs": [
+            "https://github.com/dailydeveloperjokes/","https://dev.to/dailydeveloperjokes"],
+        "description": "Developer jokes and programming humor posted every day at 8:00 AM EST."
+    }
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120907429-7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-120907429-7');
+    </script>
+
+    <!-- style -->
+    <style>
+
+    div.block {
+        margin-bottom: 1.5rem;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        padding: 1.5rem;
+        padding-top: 3.25rem;
+        box-sizing: border-box;
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 .25rem 1rem rgba(0,0,0,.1);
+        position: relative;
+    }
+    div.block.not_displayed {
+        display: none;
+    }
+    div.block p {
+        font-size: 1rem;
+        display: block;
+        margin-bottom: 1.25rem;
+        line-height: 1.5;
+    }
+    div.block p.date {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: .9rem;
+        line-height: 1;
+        
+    }
+    div.block hr {
+        display: none;
+    }
+    div.block img {
+        max-width: 100%;
+    }
+    div.block * {
+        font-style: normal !important;
+    }
+    div.block *:last-child {
+        margin-bottom: 0;
+    }
+    
+    @media only screen and (max-width: 800px) {
+        div.block p {
+            font-size: .75rem;
+            margin-bottom: .75rem;
+        }
+        div.block {
+            padding: .75rem;
+            padding-top: 2.75rem;
+        }
+        div.block img {
+            margin-left: calc(-1rem);
+            width: calc(100% + 2rem);
+            max-width: none;
+        }
+    }
+    
+    </style>
+</head>
+
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-family: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #27f;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #23f;
+    text-decoration: underline;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #222222;
+}
+
+div.container {
+    width: 750px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+    box-sizing: border-box;
+    height: auto;
+}
+@media only screen and (max-width: 750px) {
+    div.container {
+        width: 100%;
+        padding: 1.5rem 1rem;
+    }
+}
+
+.follow_on_dev_toparea {
+    display: none;
+    text-align: center;
+    width: 100%;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    padding: 1rem .5rem;
+    background-color: #222222;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+.follow_on_dev_toparea:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.follow_me_on_dev_badge {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 12.5rem;
+    width: 12.5rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    transition: opacity .2s;
+    opacity: .95;
+    cursor: pointer;
+    z-index: 9999;
+}
+.follow_me_on_dev_badge:hover {
+    opacity: 1;
+}
+.follow_me_on_dev_badge > img {
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 850px) {
+    .follow_me_on_dev_badge {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    div.container {
+        padding-top: 3.5rem;
+    }
+    .follow_me_on_dev_badge {
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 500px) {
+    div.container {
+        padding-top: 1.5rem;
+    }
+    .follow_me_on_dev_badge {
+        display: none;
+    }
+    .follow_on_dev_toparea {
+        display: block;
+    }
+}
+
+</style>
+
+<body>
+    <a href="https://dev.to/dailydeveloperjokes" class="follow_on_dev_toparea" target="_blank">Follow Daily Dev Jokes on DEV</a>
+    <a href="https://dev.to/dailydeveloperjokes" class="follow_me_on_dev_badge" target="_blank">
+        <img src="assets/img/follow_me_on_dev_badge.png" alt="Follow Daily Developer Jokes on DEV">
+    </a>
+    <div class="container">
+        <style>
+
+div.toparea {
+    display: block;
+    text-align: center;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+div.toparea > h1 {
+    font-size: 3rem;
+    letter-spacing: -.075rem;
+}
+div.toparea > p {
+    font-size: 1.25rem;
+    opacity: .5;
+    margin-top: .5rem;
+    display: block;
+}
+
+div.toparea > div.row {
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+div.toparea > div.row > p.left {
+    float: left;
+}
+div.toparea > div.row > p.right {
+    float: right;
+}
+
+@media only screen and (max-width: 750px) {
+    div.toparea > h1 {
+        font-size: 2.25rem;
+    }
+    div.toparea > p {
+        font-size: 1rem;
+    }
+    div.toparea > div.row {
+        font-size: .9rem;
+    }
+    div.toparea > div.row > p.left, div.toparea > div.row > p.right {
+        float: none;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
+@media only screen and (max-width: 550px) {
+    div.toparea > h1 {
+        font-size: 1.85rem;
+    }
+}
+
+</style>
+
+<div class="toparea">
+    <h1>Daily Developer Jokes</h1>
+    <p>developer jokes posted daily at 8:00 AM EST</p>
+    <div class="row">
+        <p class="left">Created by <a href="https://xtrp.io/" target="_blank">Fred Adams</a></p>
+        <p class="right">Read about at <a href="https://xtrp.io/blog/2020/01/12/daily-jokes-bot-release/" target="_blank">this blog post</a></p>
+    </div>
+</div>
+<style>
+
+div.searchbar {
+    box-sizing: border-box;
+    padding: .75rem 1.5rem;
+    margin-top: .75rem;
+    margin-bottom: 1.75rem;
+    border-bottom: 1px solid #f4f4f4;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 9998;
+    width: calc(100% + 3rem);
+    margin-left: -1.5rem;
+}
+
+input.search {
+    display: block;
+    width: 100%;
+    font-size: 1.125rem;
+    box-sizing: border-box;
+    padding: .75rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    transition: transform .2s, border-color .2s, background-color .2s, box-shadow .2s;
+    outline: none;
+}
+
+input.search::placeholder {
+    color: #888;
+}
+input.search:focus {
+    transform: scale(1.02);
+    border-color: #666;
+    background-color: #fcfcfc;
+    box-shadow: 0 .125rem .5rem rgba(0,0,0,.1);
+}
+
+@media only screen and (max-width: 750px) {
+    div.toparea > input {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    div.searchbar {
+        padding: .75rem 1rem;
+        width: calc(100% + 2rem);
+        margin-left: -1rem;
+    }
+}
+
+</style>
+
+<div class="searchbar">
+    <input type="text" class="search" placeholder="Search 4 Developer Jokes..." oninput="updateSearch(this.value);" spellcheck="false">
+</div>
+
+<script>
+/* search functionality */
+const jokes = [
+    
+    {
+        "date": "Wednesday, January 15, 2020",
+        "joke": "Q: What did the spider do on the computer?A: Made a website!"
+    },
+    
+    {
+        "date": "Tuesday, January 14, 2020",
+        "joke": "Q: Why do assembly programmers need to know how to swim?A: Because they work below C level."
+    },
+    
+    {
+        "date": "Monday, January 13, 2020",
+        "joke": "Q: An Agent died unexpectedly. How was the crime solved?A: By looking at the Stack Trace."
+    },
+    
+    {
+        "date": "Sunday, January 12, 2020",
+        "joke": "Q: Why did the database administrator leave his wife?A: She had one-to-many relationships."
+    },
+    
+];
+
+const updateSearch = (query) => {
+    // lower case
+    query = query.toLowerCase();
+
+    // list of block elements
+    const blocks = Array.from(document.querySelectorAll("div.block"));
+
+    // loop through each block and get rid of any classes
+    blocks.forEach((item, index) => {
+        item.classList.remove("not_displayed");
+    });
+
+    // loop through each joke and handle according to search query
+    jokes.forEach((joke, index) => {
+        // if query does not match, don't display
+        if((joke.date.toLowerCase().indexOf(query) == -1) && (joke.joke.toLowerCase().indexOf(query) == -1)) {
+            blocks[index].classList.add("not_displayed");
+        }
+    });
+}
+</script>
+
+<ul class="posts">
+    
+        <div class="block">
+    <p class="date">
+        Wednesday, January 15, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258bb6df5f.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+___Q:___ What did the spider do on the computer?
+
+___A:___ Made a website!
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Tuesday, January 14, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259823aa3b.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+___Q:___ Why do assembly programmers need to know how to swim?
+
+___A:___ Because they work below C level.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Monday, January 13, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e125947cfb29.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+___Q:___ An Agent died unexpectedly. How was the crime solved?
+
+___A:___ By looking at the Stack Trace.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Sunday, January 12, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e125927bb96c.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** Why did the database administrator leave his wife?
+
+**A:** She had one-to-many relationships.
+ -->
+
+
+</div>
+    
+
+    
+    
+</ul>
+    </div>
+
+    <!-- Cookies! -->
+    <script src="assets/js/cookiesBanner.js"></script>
+    <script>
+    __createCookiesBanner(750, 14, "dailydeveloperjokes.github.io");
+    </script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daily Developer Jokes</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Fred Adams">
+    <meta name="description" content="Developer jokes and programming humor posted every day at 8:00 AM EST.">
+    
+    <meta name="twitter:card" content="summary">
+
+    <meta name="twitter:title" content="Daily Developer Jokes">
+    <meta name="twitter:description" content="Developer jokes and programming humor posted every day at 8:00 AM EST.">
+
+    <meta property="og:title" content="Daily Developer Jokes">
+    <meta property="og:site_name" content="Daily Developer Jokes">
+    <meta property="og:description" content="Developer jokes and programming humor posted every day at 8:00 AM EST.">
+
+        
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="application/ld+json">
+    {
+        "@type": "WebSite",
+        "@context": "http://schema.org",
+        "url": "https://dailydeveloperjokes.github.io/",
+        "name": "Daily Developer Jokes",
+        "author": {
+            "@type": "Person",
+            "name": "Fred Adams"
+        },
+        "sameAs": [
+            "https://github.com/dailydeveloperjokes/","https://dev.to/dailydeveloperjokes"],
+        "description": "Developer jokes and programming humor posted every day at 8:00 AM EST."
+    }
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120907429-7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-120907429-7');
+    </script>
+
+    <!-- style -->
+    <style>
+
+    div.block {
+        margin-bottom: 1.5rem;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        padding: 1.5rem;
+        padding-top: 3.25rem;
+        box-sizing: border-box;
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 .25rem 1rem rgba(0,0,0,.1);
+        position: relative;
+    }
+    div.block.not_displayed {
+        display: none;
+    }
+    div.block p {
+        font-size: 1rem;
+        display: block;
+        margin-bottom: 1.25rem;
+        line-height: 1.5;
+    }
+    div.block p.date {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: .9rem;
+        line-height: 1;
+        
+    }
+    div.block hr {
+        display: none;
+    }
+    div.block img {
+        max-width: 100%;
+    }
+    div.block * {
+        font-style: normal !important;
+    }
+    div.block *:last-child {
+        margin-bottom: 0;
+    }
+    
+    @media only screen and (max-width: 800px) {
+        div.block p {
+            font-size: .75rem;
+            margin-bottom: .75rem;
+        }
+        div.block {
+            padding: .75rem;
+            padding-top: 2.75rem;
+        }
+        div.block img {
+            margin-left: calc(-1rem);
+            width: calc(100% + 2rem);
+            max-width: none;
+        }
+    }
+    
+    </style>
+</head>
+
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-family: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #27f;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #23f;
+    text-decoration: underline;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #222222;
+}
+
+div.container {
+    width: 750px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+    box-sizing: border-box;
+    height: auto;
+}
+@media only screen and (max-width: 750px) {
+    div.container {
+        width: 100%;
+        padding: 1.5rem 1rem;
+    }
+}
+
+.follow_on_dev_toparea {
+    display: none;
+    text-align: center;
+    width: 100%;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    padding: 1rem .5rem;
+    background-color: #222222;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+.follow_on_dev_toparea:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.follow_me_on_dev_badge {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 12.5rem;
+    width: 12.5rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    transition: opacity .2s;
+    opacity: .95;
+    cursor: pointer;
+    z-index: 9999;
+}
+.follow_me_on_dev_badge:hover {
+    opacity: 1;
+}
+.follow_me_on_dev_badge > img {
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 850px) {
+    .follow_me_on_dev_badge {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    div.container {
+        padding-top: 3.5rem;
+    }
+    .follow_me_on_dev_badge {
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 500px) {
+    div.container {
+        padding-top: 1.5rem;
+    }
+    .follow_me_on_dev_badge {
+        display: none;
+    }
+    .follow_on_dev_toparea {
+        display: block;
+    }
+}
+
+</style>
+
+<body>
+    <a href="https://dev.to/dailydeveloperjokes" class="follow_on_dev_toparea" target="_blank">Follow Daily Dev Jokes on DEV</a>
+    <a href="https://dev.to/dailydeveloperjokes" class="follow_me_on_dev_badge" target="_blank">
+        <img src="assets/img/follow_me_on_dev_badge.png" alt="Follow Daily Developer Jokes on DEV">
+    </a>
+    <div class="container">
+        <script>
+window.location.replace("");
+</script>
+    </div>
+
+    <!-- Cookies! -->
+    <script src="assets/js/cookiesBanner.js"></script>
+    <script>
+    __createCookiesBanner(750, 14, "dailydeveloperjokes.github.io");
+    </script>
+</body>
+</html>
