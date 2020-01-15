@@ -248,10 +248,23 @@ window.location.replace("");
 </script>
     </div>
 
-    <!-- Cookies! -->
+    <!-- Cookies! 
     <script src="assets/js/cookiesBanner.js"></script>
     <script>
     __createCookiesBanner(750, 14, "dailydeveloperjokes.github.io");
+    </script>-->
+
+    <script src="assets/js/considerbookmarkingpopup.js"></script>
+    <script>
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        setTimeout(() => {
+            openAddToHomeScreen("dailydeveloperjokes.github.io");
+        }, 3000);
+    }else {
+        setTimeout(() => {
+            openBookmarkPopup("dailydeveloperjokes.github.io");
+        }, 3000);
+    }
     </script>
 </body>
 </html>
