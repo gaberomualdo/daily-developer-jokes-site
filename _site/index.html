@@ -363,12 +363,17 @@ input.search:focus {
 </style>
 
 <div class="searchbar">
-    <input type="text" class="search" placeholder="Search 4 Developer Jokes..." oninput="updateSearch(this.value);" spellcheck="false">
+    <input type="text" class="search" placeholder="Search 5 Developer Jokes..." oninput="updateSearch(this.value);" spellcheck="false">
 </div>
 
 <script>
 /* search functionality */
 const jokes = [
+    
+    {
+        "date": "Thursday, January 16, 2020",
+        "joke": "Q: Why did the computer keep sneezing?A: It had a virus!"
+    },
     
     {
         "date": "Wednesday, January 15, 2020",
@@ -415,6 +420,27 @@ const updateSearch = (query) => {
 </script>
 
 <ul class="posts">
+    
+        <div class="block">
+    <p class="date">
+        Thursday, January 16, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258c20b362.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong>_<a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong>_ with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+___Q:___ Why did the computer keep sneezing?
+
+___A:___ It had a virus!
+ -->
+
+
+</div>
     
         <div class="block">
     <p class="date">
@@ -506,23 +532,21 @@ Joke text:
 </ul>
     </div>
 
-    <!-- Cookies! 
-    <script src="assets/js/cookiesBanner.js"></script>
+    <!-- Cookies! -->
+    <script src="https://private.xtrp.io/projects/cookies_insert/cookiesBanner.js"></script>
     <script>
     __createCookiesBanner(750, 14, "dailydeveloperjokes.github.io");
-    </script>-->
+    </script>
 
-    <script src="assets/js/considerbookmarkingpopup.js"></script>
+    <!-- Remove "_" bug in post text -->
     <script>
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        setTimeout(() => {
-            openAddToHomeScreen("dailydeveloperjokes.github.io");
-        }, 3000);
-    }else {
-        setTimeout(() => {
-            openBookmarkPopup("dailydeveloperjokes.github.io");
-        }, 3000);
-    }
+    (() => {
+        Array.from(document.querySelectorAll("div.block p")).forEach(element => {
+            if(!element.querySelector("img")){
+                element.innerHTML = element.innerHTML.split("_").join("");
+            }
+        });
+    })();
     </script>
 </body>
 </html>

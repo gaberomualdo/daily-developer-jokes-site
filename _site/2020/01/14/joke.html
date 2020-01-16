@@ -260,23 +260,21 @@ ___A:___ Because they work below C level.
 
     </div>
 
-    <!-- Cookies! 
-    <script src="assets/js/cookiesBanner.js"></script>
+    <!-- Cookies! -->
+    <script src="https://private.xtrp.io/projects/cookies_insert/cookiesBanner.js"></script>
     <script>
     __createCookiesBanner(750, 14, "dailydeveloperjokes.github.io");
-    </script>-->
+    </script>
 
-    <script src="assets/js/considerbookmarkingpopup.js"></script>
+    <!-- Remove "_" bug in post text -->
     <script>
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        setTimeout(() => {
-            openAddToHomeScreen("dailydeveloperjokes.github.io");
-        }, 3000);
-    }else {
-        setTimeout(() => {
-            openBookmarkPopup("dailydeveloperjokes.github.io");
-        }, 3000);
-    }
+    (() => {
+        Array.from(document.querySelectorAll("div.block p")).forEach(element => {
+            if(!element.querySelector("img")){
+                element.innerHTML = element.innerHTML.split("_").join("");
+            }
+        });
+    })();
     </script>
 </body>
 </html>
