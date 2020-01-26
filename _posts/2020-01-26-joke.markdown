@@ -1,0 +1,23 @@
+---
+date: 2020-01-26
+title: 'Joke'
+joke: >
+  I’ve been hearing news about this big boolean.
+  
+  Huge if true.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258922d1b9.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+I’ve been hearing news about this big boolean.
+
+Huge if true.
+ -->
+
