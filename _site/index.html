@@ -175,7 +175,7 @@ div.container {
     }
 }
 
-.follow_on_dev_toparea {
+.built_by_fred_toparea {
     display: none;
     text-align: center;
     width: 100%;
@@ -186,11 +186,11 @@ div.container {
     color: #ffffff;
     box-sizing: border-box;
 }
-.follow_on_dev_toparea:hover {
+.built_by_fred_toparea:hover {
     color: #ffffff;
     text-decoration: none;
 }
-.follow_me_on_dev_badge {
+.built_by_fred_badge {
     position: fixed;
     top: 0;
     right: 0;
@@ -202,15 +202,15 @@ div.container {
     cursor: pointer;
     z-index: 9999;
 }
-.follow_me_on_dev_badge:hover {
+.built_by_fred_badge:hover {
     opacity: 1;
 }
-.follow_me_on_dev_badge > img {
+.built_by_fred_badge > img {
     width: 100%;
     height: 100%;
 }
 @media only screen and (max-width: 850px) {
-    .follow_me_on_dev_badge {
+    .built_by_fred_badge {
         width: 10rem;
         height: 10rem;
     }
@@ -219,7 +219,7 @@ div.container {
     div.container {
         padding-top: 3.5rem;
     }
-    .follow_me_on_dev_badge {
+    .built_by_fred_badge {
         position: absolute;
     }
 }
@@ -227,10 +227,10 @@ div.container {
     div.container {
         padding-top: 1.5rem;
     }
-    .follow_me_on_dev_badge {
+    .built_by_fred_badge {
         display: none;
     }
-    .follow_on_dev_toparea {
+    .built_by_fred_toparea {
         display: block;
     }
 }
@@ -238,9 +238,9 @@ div.container {
 </style>
 
 <body>
-    <a href="https://dev.to/dailydeveloperjokes" class="follow_on_dev_toparea" target="_blank">Follow Daily Dev Jokes on DEV</a>
-    <a href="https://dev.to/dailydeveloperjokes" class="follow_me_on_dev_badge" target="_blank">
-        <img src="assets/img/follow_me_on_dev_badge.png" alt="Follow Daily Developer Jokes on DEV">
+    <a href="https://xtrp.io/" class="built_by_fred_toparea" target="_blank">Built by Fred Adams</a>
+    <a href="https://xtrp.io/" class="built_by_fred_badge" target="_blank">
+        <img src="assets/img/built_by_fred_badge.png" alt="Check out the creator of Daily Developer Jokes: Fred Adams">
     </a>
     <div class="container">
         <style>
@@ -363,12 +363,112 @@ input.search:focus {
 </style>
 
 <div class="searchbar">
-    <input type="text" class="search" placeholder="Search 5 Developer Jokes..." oninput="updateSearch(this.value);" spellcheck="false">
+    <input type="text" class="search" placeholder="Search 25 Developer Jokes..." oninput="updateSearch(this.value);" spellcheck="false">
 </div>
 
 <script>
 /* search functionality */
 const jokes = [
+    
+    {
+        "date": "Wednesday, February 5, 2020",
+        "joke": "Q: How does a programmer open a jar for their significant other?A: They install Java"
+    },
+    
+    {
+        "date": "Tuesday, February 4, 2020",
+        "joke": "Q: Why did the computer squeak?A: Because someone stepped on its mouse!"
+    },
+    
+    {
+        "date": "Monday, February 3, 2020",
+        "joke": "!falseIt’s funny ‘cause it’s true."
+    },
+    
+    {
+        "date": "Sunday, February 2, 2020",
+        "joke": "Q: Why don’t bachelors like Git?A: Because they are afraid to commit."
+    },
+    
+    {
+        "date": "Saturday, February 1, 2020",
+        "joke": "Q: What are clouds made of?A: Mostly linux servers."
+    },
+    
+    {
+        "date": "Friday, January 31, 2020",
+        "joke": "Q: Why did the developer have to quit smoking?A: Because they couldn’t afford to pay the new syntax."
+    },
+    
+    {
+        "date": "Thursday, January 30, 2020",
+        "joke": "Q: Where did the parallel function wash its hands?A: Async"
+    },
+    
+    {
+        "date": "Wednesday, January 29, 2020",
+        "joke": "Q: Why did the functions stop calling each other?A: Because they had constant arguments."
+    },
+    
+    {
+        "date": "Tuesday, January 28, 2020",
+        "joke": "Q: What did the server say to his client who was having a bad day?A: Everything’s going to be 200"
+    },
+    
+    {
+        "date": "Monday, January 27, 2020",
+        "joke": "Q: What did the Class say in court when put on trial?A: I strongly object!"
+    },
+    
+    {
+        "date": "Sunday, January 26, 2020",
+        "joke": "I’ve been hearing news about this big boolean.Huge if true."
+    },
+    
+    {
+        "date": "Saturday, January 25, 2020",
+        "joke": "Q: What are computers’ favorite snacks?A: Microchips, phish sticks, and cookies. But just a few bytes of each."
+    },
+    
+    {
+        "date": "Friday, January 24, 2020",
+        "joke": "Q: Why did the web developer always go to the wrong hotel room?A: They were in room 301."
+    },
+    
+    {
+        "date": "Thursday, January 23, 2020",
+        "joke": "Q: How do programming pirates pass method parameters?A: Varrrrarrrgs."
+    },
+    
+    {
+        "date": "Wednesday, January 22, 2020",
+        "joke": "Q: Are computers dangerous?A: Nah, they don’t byte. They just nibble a bit."
+    },
+    
+    {
+        "date": "Tuesday, January 21, 2020",
+        "joke": "Q: Why doesn’t Hollywood make more Big Data movies?A: NoSQL."
+    },
+    
+    {
+        "date": "Monday, January 20, 2020",
+        "joke": "Q: Why did 10 get paid less than “10”?A: There was workplace inequality."
+    },
+    
+    {
+        "date": "Sunday, January 19, 2020",
+        "joke": "Q: Why do Java developers wear glasses?A: Because they don’t C#!"
+    },
+    
+    {
+        "date": "Saturday, January 18, 2020",
+        "joke": "Q: Who used the internet before it was cool?A: Httpsters"
+    },
+    
+    {
+        "date": "Friday, January 17, 2020",
+        "joke": "Q: Which programming language is the shortest?A: HTML. Because it doesn’t have a neck between its &lt;head&gt; and &lt;body&gt;."
+    },
     
     {
         "date": "Thursday, January 16, 2020",
@@ -420,6 +520,426 @@ const updateSearch = (query) => {
 </script>
 
 <ul class="posts">
+    
+        <div class="block">
+    <p class="date">
+        Wednesday, February 5, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12595d30baa.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** How does a programmer open a jar for their significant other?
+
+**A:** They install Java
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Tuesday, February 4, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258cecd22f.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** Why did the computer squeak?
+
+**A:** Because someone stepped on its mouse!
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Monday, February 3, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258a87ad7e.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**!false**
+
+It's funny 'cause it's true.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Sunday, February 2, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258e3bbae5.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** Why don't bachelors like Git?
+
+**A:** Because they are afraid to commit.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Saturday, February 1, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e125999cc4b1.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q**: What are clouds made of?
+
+**A**: Mostly linux servers.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Friday, January 31, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259582acfe.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** Why did the developer have to quit smoking?
+
+**A:** Because they couldn't afford to pay the new syntax.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Thursday, January 30, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258ab6087f.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** Where did the parallel function wash its hands?
+
+**A:** Async
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Wednesday, January 29, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258b057385.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** Why did the functions stop calling each other?
+
+**A:** Because they had constant arguments.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Tuesday, January 28, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258f2759b6.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** What did the server say to his client who was having a bad day?
+
+**A:** Everything's going to be 200
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Monday, January 27, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12592cb43a5.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** What did the Class say in court when put on trial?
+
+**A:** I strongly object!
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Sunday, January 26, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258922d1b9.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+I’ve been hearing news about this big boolean.
+
+Huge if true.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Saturday, January 25, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12590a84b94.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** What are computers' favorite snacks?
+
+**A:** Microchips, phish sticks, and cookies. But just a few bytes of each.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Friday, January 24, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e125988c2636.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** Why did the web developer always go to the wrong hotel room?
+
+**A:** They were in room 301.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Thursday, January 23, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258d992c4e.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** How do programming pirates pass method parameters?
+
+**A:** Varrrrarrrgs.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Wednesday, January 22, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258f70cd7f.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** Are computers dangerous?
+
+**A:** Nah, they don't byte. They just nibble a bit.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Tuesday, January 21, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258b4d7b44.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** Why doesn't Hollywood make more Big Data movies?
+
+**A:** NoSQL.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Monday, January 20, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258999910d.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** Why did 10 get paid less than "10"?
+
+**A:** There was workplace inequality.
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Sunday, January 19, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12592f4bd15.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong><a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong> with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+**Q:** Why do Java developers wear glasses?
+
+**A:** Because they don't C#!
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Saturday, January 18, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12598468df3.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong>_<a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong>_ with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+___Q:___ Who used the internet before it was cool?
+
+___A:___ Httpsters
+ -->
+
+
+</div>
+    
+        <div class="block">
+    <p class="date">
+        Friday, January 17, 2020
+    </p>
+    <p><img src="https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259d077252.png" alt="Joke Image" /></p>
+
+<hr />
+<p><em>Have a joke idea for a future post? Email <strong>_<a href="mailto:xtrp@xtrp.io">xtrp@xtrp.io</a></strong>_ with your suggestions!</em></p>
+
+<p><em>This joke comes from <a href="https://github.com/wesbos/dad-jokes">Dad-Jokes GitHub Repo by Wes Bos</a> (thank you!), whose owner has given me permission to use this joke with credit.</em></p>
+
+<!-- 
+Joke text:
+___Q:___ Which programming language is the shortest?
+
+___A:___ HTML. Because it doesn't have a neck between its `<head>` and `<body>`.
+ -->
+
+
+</div>
     
         <div class="block">
     <p class="date">
