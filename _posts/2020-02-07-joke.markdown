@@ -1,0 +1,23 @@
+---
+date: 2020-02-07
+title: 'Joke'
+joke: >
+  ___Q___: Did you hear what the clumsy cryptographer did to their password?
+  
+  ___A___: Made a hash of it.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e125994c8f5a.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q**: Did you hear what the clumsy cryptographer did to their password?
+
+**A**: Made a hash of it.
+ -->
+
