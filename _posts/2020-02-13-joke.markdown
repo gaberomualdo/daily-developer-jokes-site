@@ -1,0 +1,23 @@
+---
+date: 2020-02-13
+title: 'Joke'
+joke: >
+  ___Q:___ Where do developers drink?
+  
+  ___A:___ The Foo bar
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12597fe0374.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** Where do developers drink?
+
+**A:** The Foo bar
+ -->
+
