@@ -1,0 +1,23 @@
+---
+date: 2020-02-26
+title: 'Joke'
+joke: >
+  ___Q:___ Why did the developer have to quit smoking?
+  
+  ___A:___ Because they couldn't afford to pay the new syntax.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259582acfe.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** Why did the developer have to quit smoking?
+
+**A:** Because they couldn't afford to pay the new syntax.
+ -->
+
