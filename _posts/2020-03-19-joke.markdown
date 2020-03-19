@@ -1,0 +1,23 @@
+---
+date: 2020-03-19
+title: 'Joke'
+joke: >
+  ___Q___: Why can't you use 'Soup' as your password?
+  
+  ___A___: Because it isn't `stroganoff`
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12599ebe62f.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q**: Why can't you use 'Soup' as your password?
+
+**A**: Because it isn't `stroganoff`
+ -->
+
