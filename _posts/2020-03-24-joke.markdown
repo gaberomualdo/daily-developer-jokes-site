@@ -1,0 +1,23 @@
+---
+date: 2020-03-24
+title: 'Joke'
+joke: >
+  ___Q:___ Which programming language is the shortest?
+  
+  ___A:___ HTML. Because it doesn't have a neck between its `<head>` and `<body>`.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259d077252.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** Which programming language is the shortest?
+
+**A:** HTML. Because it doesn't have a neck between its `<head>` and `<body>`.
+ -->
+
