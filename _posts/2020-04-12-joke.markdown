@@ -1,0 +1,23 @@
+---
+date: 2020-04-12
+title: 'Joke'
+joke: >
+  ___Q:___ What are the three hardest problems in computer science?
+  
+  ___A:___ Naming things and off-by-one errors
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259316ab83.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** What are the three hardest problems in computer science?
+
+**A:** Naming things and off-by-one errors
+ -->
+
