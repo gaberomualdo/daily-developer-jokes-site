@@ -2,12 +2,12 @@
 date: 2020-05-05
 title: 'Joke'
 joke: >
-  ___Q:___ Why are machine learning models so fit?
+  ___Q:___ What do you get when you cross a computer and a life guard?
   
-  ___A:___ Because they do weight training.
+  ___A:___ A screensaver!
 ---
 
-![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12598c9c711.png)
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258d16351b.png)
 
 ---
 *Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
@@ -16,8 +16,8 @@ joke: >
 
 <!-- 
 Joke text:
-**Q:** Why are machine learning models so fit?
+**Q:** What do you get when you cross a computer and a life guard?
 
-**A:** Because they do weight training.
+**A:** A screensaver!
  -->
 
