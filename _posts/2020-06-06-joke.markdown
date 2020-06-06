@@ -1,0 +1,23 @@
+---
+date: 2020-06-06
+title: 'Joke'
+joke: >
+  ___Q:___ Why don't bachelors like Git?
+  
+  ___A:___ Because they are afraid to commit.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258e3bbae5.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** Why don't bachelors like Git?
+
+**A:** Because they are afraid to commit.
+ -->
+
