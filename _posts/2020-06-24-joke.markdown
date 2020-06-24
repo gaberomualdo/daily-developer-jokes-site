@@ -1,0 +1,23 @@
+---
+date: 2020-06-24
+title: 'Joke'
+joke: >
+  ___Q:___ A SQL developer walked into a NoSQL bar.
+  
+  ___A:___ They left because they couldn't find a table.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259169f6cb.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** A SQL developer walked into a NoSQL bar.
+
+**A:** They left because they couldn't find a table.
+ -->
+
