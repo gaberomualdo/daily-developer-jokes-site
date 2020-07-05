@@ -1,0 +1,23 @@
+---
+date: 2020-07-05
+title: 'Joke'
+joke: >
+  ___Q:___ What do you call a computer that sings?
+  
+  ___A:___ A-dell.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12590f4ba3c.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** What do you call a computer that sings?
+
+**A:** A-dell.
+ -->
+
