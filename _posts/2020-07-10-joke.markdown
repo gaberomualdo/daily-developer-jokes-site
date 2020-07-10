@@ -1,0 +1,23 @@
+---
+date: 2020-07-10
+title: 'Joke'
+joke: >
+  ___Q:___ Where did the API go to eat?
+  
+  ___A:___ To the RESTaurant
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e125952bbb70.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** Where did the API go to eat?
+
+**A:** To the RESTaurant
+ -->
+
