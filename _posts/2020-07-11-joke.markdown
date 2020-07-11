@@ -1,0 +1,23 @@
+---
+date: 2020-07-11
+title: 'Joke'
+joke: >
+  ___Q:___ Why don't parents teach their kids about regular expressions?
+  
+  ___A:___ Because they don't want them playing with matches
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12591b4fccd.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** Why don't parents teach their kids about regular expressions?
+
+**A:** Because they don't want them playing with matches
+ -->
+
