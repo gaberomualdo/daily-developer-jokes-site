@@ -1,0 +1,23 @@
+---
+date: 2020-07-18
+title: 'Joke'
+joke: >
+  ___Q:___ Why did the document store go out of business?
+  
+  ___A:___ It had NoSQL.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12594a73e61.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** Why did the document store go out of business?
+
+**A:** It had NoSQL.
+ -->
+
