@@ -1,0 +1,23 @@
+---
+date: 2020-07-22
+title: 'Joke'
+joke: >
+  ___Q:___ What did the array say after it was extended?
+  
+  ___A:___ Stop objectifying me.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258a63bab5.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** What did the array say after it was extended?
+
+**A:** Stop objectifying me.
+ -->
+
