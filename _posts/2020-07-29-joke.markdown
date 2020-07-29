@@ -1,0 +1,23 @@
+---
+date: 2020-07-29
+title: 'Joke'
+joke: >
+  A programmer's significant other tells them, "Run to the store and pick up a loaf of bread. If they have eggs, get a dozen."
+  
+  The programmer comes home with 12 loaves of bread.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258b924543.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+A programmer's significant other tells them, "Run to the store and pick up a loaf of bread. If they have eggs, get a dozen."
+
+The programmer comes home with 12 loaves of bread.
+ -->
+
