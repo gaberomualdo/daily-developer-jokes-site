@@ -1,0 +1,23 @@
+---
+date: 2020-08-17
+title: 'Joke'
+joke: >
+  ___Q:___ What kind of computer can hold a musical note?
+  
+  ___A:___ A Dell.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259869e0aa.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** What kind of computer can hold a musical note?
+
+**A:** A Dell.
+ -->
+
