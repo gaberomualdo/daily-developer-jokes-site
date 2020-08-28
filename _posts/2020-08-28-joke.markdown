@@ -1,0 +1,23 @@
+---
+date: 2020-08-28
+title: 'Joke'
+joke: >
+  A new database query walks into a bar.
+  
+  The server says "Sorry, cache only."
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259a37a785.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+A new database query walks into a bar.
+
+The server says "Sorry, cache only."
+ -->
+
