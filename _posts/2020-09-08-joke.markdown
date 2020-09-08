@@ -1,0 +1,23 @@
+---
+date: 2020-09-08
+title: 'Joke'
+joke: >
+  ___Q:___ What do you do when you can't understand your husband's behavior?
+  
+  ___A:___ man man
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e125900b9ff4.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** What do you do when you can't understand your husband's behavior?
+
+**A:** man man
+ -->
+
