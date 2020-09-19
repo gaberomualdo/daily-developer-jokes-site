@@ -1,0 +1,23 @@
+---
+date: 2020-09-19
+title: 'Joke'
+joke: >
+  ___Q:___ A SQL query goes into a bar, walks up to two tables and asks:
+  
+  ___A:___ Can I JOIN you?
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258e619778.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** A SQL query goes into a bar, walks up to two tables and asks:
+
+**A:** Can I JOIN you?
+ -->
+
