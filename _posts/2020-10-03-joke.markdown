@@ -1,0 +1,23 @@
+---
+date: 2020-10-03
+title: 'Joke'
+joke: >
+  ___Q___: What good can come of 2989 witches casting a hex?
+  
+  ___A___: None, it is always 0xBAD
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259d336eb5.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q**: What good can come of 2989 witches casting a hex?
+
+**A**: None, it is always 0xBAD
+ -->
+
