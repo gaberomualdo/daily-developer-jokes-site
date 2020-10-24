@@ -1,0 +1,23 @@
+---
+date: 2020-10-24
+title: 'Joke'
+joke: >
+  ___Q:___ How does a developer make a cheer?
+  
+  ___A:___ ["hip","hip"] // (hip hip array!)
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258e86d537.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** How does a developer make a cheer?
+
+**A:** ["hip","hip"] // (hip hip array!)
+ -->
+
