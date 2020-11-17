@@ -1,0 +1,23 @@
+---
+date: 2020-11-17
+title: 'Joke'
+joke: >
+  I went to a street where the houses were numbered 8k, 16k, 32k, 64k, 128k, 256k and 512k. 
+  
+  It was a trip down Memory Lane.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259d7cf335.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+I went to a street where the houses were numbered 8k, 16k, 32k, 64k, 128k, 256k and 512k. 
+
+It was a trip down Memory Lane.
+ -->
+
