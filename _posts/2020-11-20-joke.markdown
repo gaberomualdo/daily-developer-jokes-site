@@ -1,0 +1,23 @@
+---
+date: 2020-11-20
+title: 'Joke'
+joke: >
+  Asynchronous JavaScript is amazing.
+  
+  I Promise you, await and see.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12592aa5db7.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+Asynchronous JavaScript is amazing.
+
+I Promise you, await and see.
+ -->
+
