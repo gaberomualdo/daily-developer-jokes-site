@@ -1,0 +1,23 @@
+---
+date: 2020-12-03
+title: 'Joke'
+joke: >
+  ___Q:___ How did pirates collaborate before computers ?
+  
+  ___A:___ Pier to pier networking.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258e0be565.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** How did pirates collaborate before computers ?
+
+**A:** Pier to pier networking.
+ -->
+
