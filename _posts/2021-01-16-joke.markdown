@@ -1,0 +1,23 @@
+---
+date: 2021-01-16
+title: 'Joke'
+joke: >
+  ___Q:___ Why didn't the `<div />` get invited to the dinner party?
+  
+  ___A:___ Because it had no class!
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12591e45d64.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** Why didn't the `<div />` get invited to the dinner party?
+
+**A:** Because it had no class!
+ -->
+
