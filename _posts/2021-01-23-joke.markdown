@@ -1,0 +1,23 @@
+---
+date: 2021-01-23
+title: 'Joke'
+joke: >
+  ___Q:___ You know what the best thing about booleans is?
+  
+  ___A:___ Even if you are wrong, you are only off by a bit.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258fbc6e41.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** You know what the best thing about booleans is?
+
+**A:** Even if you are wrong, you are only off by a bit.
+ -->
+
