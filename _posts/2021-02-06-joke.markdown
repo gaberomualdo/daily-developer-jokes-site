@@ -1,0 +1,23 @@
+---
+date: 2021-02-06
+title: 'Joke'
+joke: >
+  ___Q:___ What is a pirate's favorite programming language?
+  
+  ___A:___ You'd think it was R, but a pirate's first love is Objectively C.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e125970d9ec2.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** What is a pirate's favorite programming language?
+
+**A:** You'd think it was R, but a pirate's first love is Objectively C.
+ -->
+
