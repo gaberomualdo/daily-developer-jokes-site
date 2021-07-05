@@ -2,12 +2,12 @@
 date: 2021-07-05
 title: 'Joke'
 joke: >
-  ___Q:___ When do front end developers go out to eat?
+  ___Q___: What did the command line die of?
   
-  ___A:___ On their lunch `<br>`.
+  ___A___: A Terminal illness.
 ---
 
-![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12591442e48.png)
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259924ce05.png)
 
 ---
 *Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
@@ -16,8 +16,8 @@ joke: >
 
 <!-- 
 Joke text:
-**Q:** When do front end developers go out to eat?
+**Q**: What did the command line die of?
 
-**A:** On their lunch `<br>`.
+**A**: A Terminal illness.
  -->
 
