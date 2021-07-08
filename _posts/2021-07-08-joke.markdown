@@ -1,0 +1,23 @@
+---
+date: 2021-07-08
+title: 'Joke'
+joke: >
+  ___Q:___ What are computers' favorite snacks?
+  
+  ___A:___ Microchips, phish sticks, and cookies. But just a few bytes of each.
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12590a84b94.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q:** What are computers' favorite snacks?
+
+**A:** Microchips, phish sticks, and cookies. But just a few bytes of each.
+ -->
+
