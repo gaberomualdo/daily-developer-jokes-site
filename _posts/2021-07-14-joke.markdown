@@ -1,0 +1,23 @@
+---
+date: 2021-07-14
+title: 'Joke'
+joke: >
+  ___Q___: Why was nobody given food at the developer conference?
+  
+  ___A___: It was a serverless function!
+---
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259ab8700f.png)
+
+---
+*Have a joke idea for a future post? Email **[xtrp@xtrp.io](mailto:xtrp@xtrp.io)** with your suggestions!*
+
+*This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit.*
+
+<!-- 
+Joke text:
+**Q**: Why was nobody given food at the developer conference?
+
+**A**: It was a serverless function!
+ -->
+
