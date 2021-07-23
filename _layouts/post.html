@@ -3,10 +3,12 @@ layout: default
 ---
 
 <ul class="posts" style="margin-top: 3.5rem;">
-  <div class="block" href="{{ page.url }}">
+  <div class="block" href="{{ page.url }}" data-date="{{ page.date | date: "%A, %B %-d, %Y" }}">
     <p class="date">
       {{ page.date | date: "%A, %B %-d, %Y" }}
     </p>
     {{ page.content }}
   </div>
+  
+  {% include notify.html %}
 </ul>

@@ -1,0 +1,444 @@
+.block {
+  display: block;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-color: #fff;
+}
+.block:not(.email) {
+  padding-top: 3.25rem;
+}
+.block,
+.block:hover {
+  font-weight: normal;
+  text-decoration: none;
+  color: inherit;
+}
+.block.not_displayed {
+  display: none;
+}
+.block p {
+  text-align: center;
+  font-size: 0.85rem;
+  display: block;
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+.block > p:nth-child(2) {
+  margin-bottom: 0.85rem;
+}
+.block p.date {
+  position: absolute;
+  top: 1.15rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1;
+}
+.block hr {
+  display: none;
+}
+.block img {
+  max-width: 100%;
+}
+.block * {
+  font-style: normal !important;
+}
+.block *:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .block p.date {
+    font-size: 0.9rem;
+    top: 1.05rem;
+  }
+  .block p {
+    font-size: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .block {
+    padding: 0.75rem;
+  }
+  .block:not(.email) {
+    padding-top: 2.75rem;
+  }
+  .block img {
+    margin-left: calc(-1rem);
+    width: calc(100% + 2rem);
+    max-width: none;
+  }
+}
+
+.block em {
+  display: block;
+  height: 2.75rem !important;
+}
+.block em > * {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin: 0;
+}
+.block em p:first-child {
+  float: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.block em p:first-child > * {
+  height: 1.25rem;
+  line-height: 1.25rem;
+  font-size: 90%;
+  text-align: left;
+}
+.block em a.btn {
+  float: right;
+  padding: 0 1rem;
+  font-size: 1rem !important;
+  color: #fff;
+  background-color: #2188ff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.block em a.btn:hover {
+  background-color: #2166ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #27f;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #23f;
+  text-decoration: underline;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #222222;
+  background-color: #fff;
+  /* opacity: 0.8; */
+  background-image: linear-gradient(#f3f3f3 1px, transparent 1px), linear-gradient(to right, #f3f3f3 1px, #fff 1px);
+  background-size: 20px 20px;
+}
+
+div.container {
+  width: 750px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  padding-top: 0;
+  box-sizing: border-box;
+  height: auto;
+}
+@media only screen and (max-width: 750px) {
+  div.container {
+    width: 100%;
+    padding: 0;
+  }
+  .nav {
+    margin-bottom: 0 !important;
+  }
+  .pagination,
+  .block {
+    border-radius: 0 !important;
+    border-left: none !important;
+    border-right: none !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border-top: none !important;
+  }
+  .pagination {
+    margin-bottom: 0 !important;
+    border-bottom: none !important;
+  }
+  footer {
+    margin-top: 0 !important;
+  }
+  ul.posts {
+    margin-top: 0 !important;
+  }
+}
+
+footer {
+  padding: 1.5rem 1rem;
+  background-color: #333;
+}
+footer .inner {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+footer .inner * {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #fff;
+}
+footer .inner h1 {
+  float: left;
+}
+footer .inner p {
+  float: right;
+}
+footer .inner a {
+  display: inline-block;
+  text-decoration: none !important;
+  transition: all 0.2s;
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+footer .inner a:hover {
+  color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 750px) {
+  footer .inner > * {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  footer .inner > * + * {
+    margin-top: 1rem;
+  }
+}
+
+div.toparea {
+  display: block;
+  text-align: center;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding: 2.5rem 0.5rem;
+  padding-top: 2rem;
+  background-color: #111111;
+  background-image: linear-gradient(30deg, #222222 12%, transparent 12.5%, transparent 87%, #222222 87.5%, #222222),
+    linear-gradient(150deg, #222222 12%, transparent 12.5%, transparent 87%, #222222 87.5%, #222222),
+    linear-gradient(30deg, #222222 12%, transparent 12.5%, transparent 87%, #222222 87.5%, #222222),
+    linear-gradient(150deg, #222222 12%, transparent 12.5%, transparent 87%, #222222 87.5%, #222222),
+    linear-gradient(60deg, #22222277 25%, transparent 25.5%, transparent 75%, #22222277 75%, #22222277),
+    linear-gradient(60deg, #22222277 25%, transparent 25.5%, transparent 75%, #22222277 75%, #22222277);
+  background-size: 60px 105px;
+  background-position: 0 0, 0 0, 30px 53px, 30px 53px, 0 0, 30px 53px;
+}
+div.toparea > h1 {
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: -0.075rem;
+}
+div.toparea > p {
+  color: #fff;
+  font-size: 1.25rem;
+  opacity: 0.5;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+@media only screen and (max-width: 750px) {
+  div.toparea > h1 {
+    font-size: 2.25rem;
+  }
+  div.toparea > p {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  div.toparea > h1 {
+    font-size: 1.85rem;
+  }
+}
+
+div.nav {
+  box-sizing: border-box;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1.75rem;
+  border: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+  position: sticky;
+  top: -1px;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px);
+  z-index: 9998;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  overflow: auto;
+  width: 100%;
+}
+div.nav > .button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  display: inline-block;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 1.25rem;
+  border-radius: 6000px;
+  text-decoration: none !important;
+  color: #666;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: normal;
+  transition: all 0.2s;
+}
+div.nav > .button + * {
+  margin-left: 0.25rem;
+}
+div.nav > .button:hover {
+  background-color: #f4f4f4;
+  color: #555;
+}
+div.nav > .button:active {
+  background-color: #f0f0f0;
+}
+div.nav > .button.active {
+  background-color: #333;
+  color: #fff;
+}
+div.nav > input {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  div.nav {
+    padding: 0.75rem 1rem;
+    margin-left: 0;
+  }
+  div.nav > .button + .button {
+    margin-left: 0;
+  }
+}
+
+.pagination {
+  background-color: #fff;
+  height: 3rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 10%);
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination > * {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.pagination a {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.pagination a:first-child {
+  left: 1rem;
+}
+.pagination a:last-child {
+  right: 1rem;
+}
+
+.block.email h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.block.email h1,
+.block.email p {
+  text-align: left;
+}
+.block.email p {
+  margin: 0;
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+.block.email > .inner {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 800px) {
+  .block.email > .inner {
+    flex-direction: column;
+  }
+  .block.email > .inner > * {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+  .block.email > .inner > * + * {
+    margin-top: 1rem;
+  }
+}
+.block.email > .inner > .meta {
+  flex: 0 0 auto;
+  margin-right: 1rem;
+}
+.block.email > .inner > .input-container {
+  flex: 1 1 100%;
+  display: flex;
+  --height: 2.5rem;
+  height: var(--height);
+}
+.block.email > .inner > .input-container > * {
+  border: none;
+  background-color: transparent;
+  box-sizing: border-box;
+  height: var(--height);
+  line-height: var(--height);
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s;
+}
+.block.email > .inner > .input-container input {
+  flex: 1 1 100%;
+  border: 1px solid #ccc;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 0 0.65rem;
+}
+.block.email > .inner > .input-container input:focus {
+  border-color: #2188ff;
+}
+.block.email > .inner > .input-container button {
+  flex: 0 0 auto;
+  padding: 0 0.65rem;
+  background-color: #f4f4f4;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+.block.email > .inner > .input-container input:not(:placeholder-shown) ~ button {
+  border-left: none;
+  background-color: #2188ff;
+  border-color: #2188ff;
+  color: #fff;
+  cursor: pointer;
+}
+.block.email > .inner > .input-container input:not(:placeholder-shown) ~ button:hover {
+  background-color: #2166ff;
+  border-color: #2166ff;
+}

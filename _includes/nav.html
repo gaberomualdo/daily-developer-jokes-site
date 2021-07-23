@@ -1,87 +1,8 @@
-<style>
-
-div.nav {
-    box-sizing: border-box;
-    padding: .5rem 1.5rem;
-    margin-bottom: 1.75rem;
-    border: 1px solid #ddd;
-    border-left: none;
-    border-right: none;
-    position: sticky;
-    top: -1px;
-    background-color: #ffffff;
-    z-index: 9998;
-    overflow: hidden;
-    text-align: center;
-    white-space: nowrap;
-    overflow: auto;
-    margin-top: 1.25rem;
-    width: calc(100% + 3rem);
-    margin-left: -1.5rem;
-
-}
-div.nav > .button {
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    display: inline-block;
-    height: 2rem;
-    line-height: 2rem;
-    padding: 0 1.25rem;
-    border-radius: 6000px;
-    text-decoration: none !important;
-    color: #666;
-    font-size: 1rem;
-    font-family: inherit;
-    font-weight: normal;
-    transition: all .2s;
-}
-div.nav > .button + * {
-    margin-left: .25rem;
-}
-div.nav > .button:hover {
-    background-color: #f4f4f4;
-    color: #555;
-}
-div.nav > .button:active {
-    background-color: #f0f0f0;
-}
-div.nav > .button.active {
-    background-color: #333;
-    color: #fff;
-}
-div.nav > input {
-    display: none;
-}
-
-
-@media only screen and (max-width: 800px) {
-    div.nav {
-        padding: .75rem 1rem;
-        margin-left: 0;
-        width: 100%;
-    }
-    div.nav > .button + .button {
-        margin-left: 0;
-    }
-}
-
-</style>
-
 <div class="nav">
     <a href="/" class="button">Home</a>
     <a href="{{ site.posts.first.url }}" class="button">Today's Joke</a>
     <a href="/find.html" class="button">Find a Joke</label>
-    <a href="{{ site.submit_url }}" target="_blank" class="button">Send in a Joke</a>
+    <a href="{{ site.submit_url }}" target="_blank" class="button">Submit a Joke</a>
     <a href="" class="button">Random Joke</a>
+    <a href="" class="button notify">Get Notified</a>
 </div>
-<script>
-    document.querySelector('.nav .button:last-child').setAttribute('href', urls[Math.floor(Math.random() * urls.length)]);
-    if(window.location.pathname === '/') {
-        document.querySelector('.nav .button:first-child').classList.add('active');
-    } else if (window.location.pathname.endsWith('{{ site.posts.first.url }}')) {
-        document.querySelector('.nav .button:nth-child(2)').classList.add('active');
-    } else if (window.location.pathname.endsWith('find.html')) {
-        document.querySelector('.nav .button:nth-child(3)').classList.add('active');
-    }
-</script>

@@ -3,6 +3,8 @@ title: Daily Developer Jokes
 description: New dev jokes and programming humor every day.
 short_description: Developer jokes posted daily.
 author: Gabriel Romualdo
+dev_url: https://dev.to/dailydeveloperjokes
+github_url: https://github.com/dailydeveloperjokes/dailydeveloperjokes.github.io/
 author_url: https://xtrp.io/
 submit_url: https://forms.gle/qdgaex9waNp4cLzW7
 blog_post: https://xtrp.io/blog/2020/01/12/daily-jokes-bot-release/

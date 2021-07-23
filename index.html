@@ -3,42 +3,17 @@ layout: default
 title: "Home"
 ---
 
-<style>
-.pagination {
-    height: 3rem;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 10%);
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 2.5rem;
-    position: relative;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.pagination > * {
-    font-weight: bold;
-    font-size: 1rem;
-}
-.pagination a {
-    display: block;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.pagination a:first-child {
-    left: 1rem;
-}
-.pagination a:last-child {
-right: 1rem;
-}
-</style>
-
 <ul class="posts">
     {% for post in paginator.posts %}
         {% include block.html %}
+        {% if forloop.index == 1 %}
+        
+        {% unless paginator.previous_page %}
+        {% include notify.html %}
+        {% endunless %}
+
+        {% else %}
+        {% endif %}
     {% endfor %}
 
     <div class="pagination">

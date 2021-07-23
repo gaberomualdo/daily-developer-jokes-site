@@ -8,19 +8,14 @@
         const dates = [{% for post in site.posts %}"{{ post.date | date: "%A, %B %-d, %Y" }}",{% endfor %}];
         const urls = [{% for post in site.posts %}"{{ post.url }}",{% endfor %}];
     </script>
+    {% include toparea.html %}
+    {% include nav.html %}
+    
     <div class="container">
-        {% include toparea.html %}
-        {% include nav.html %}
-
         {{ content }}
     </div>
     
-    <footer>
-        <div class="inner">
-            <h1>&copy; {{ site.title }} {{ 'now' | date: "%Y" }}</h1>
-            <p class="left">Built by <a href="{{ site.author_url }}" target="_blank">{{ site.author }}</a> &nbsp;&bull;&nbsp; <a href="{{ site.blog_post }}" target="_blank">About</a></p>
-        </div>
-    </footer>
+    {% include footer.html %}
 
     <!-- Cookies! -->
     <script src="https://private.xtrp.io/projects/cookies_insert/cookiesBanner.js"></script>
@@ -29,37 +24,7 @@
     </script>
 
     <!-- Remove "_" bug in post text -->
-    <script>
-    (() => {
-        function pad (str, max) {
-            str = str.toString();
-            return str.length < max ? pad("0" + str, max) : str;
-        }
-
-        Array.from(document.querySelectorAll("div.block p")).forEach(element => {
-            if(!element.querySelector("img")){
-                element.innerHTML = element.innerHTML.split("_").join("");
-                if(element.innerText.startsWith("Have a joke idea for a future post?")) element.outerHTML = '';
-            }
-        });
-        Array.from(document.querySelectorAll("div.block p em")).forEach(element => {
-            if(element.innerText.includes('This joke comes from')) {
-                const formatDate = (d) => `${d.getFullYear()}-${pad(d.getMonth() + 1, 2)}-${pad(d.getDate(), 2)}`;
-                const contributorURL = element.querySelector('a').getAttribute('href');
-                let jokeURL = element.parentElement.parentElement.getAttribute('data-url');
-                let viewJoke = true;
-                if(!jokeURL) {
-                    jokeURL = document.querySelector('.nav .button:last-child').getAttribute('href');
-                    viewJoke = false;
-                }
-                const dAsStr = element.parentElement.parentElement.getAttribute('data-date');
-                element.innerHTML = `<p><a href='${contributorURL}'>Joke Contributor</a><a href='https://github.com/dailydeveloperjokes/dailydeveloperjokes.github.io/blob/master/_posts/${
-                    formatDate(new Date(dAsStr))
-                }-joke.markdown'>View On GitHub</a></p><a class='btn' href='${jokeURL}'>${viewJoke ? 'View Joke' : 'Random Joke'} &nbsp;&rarr;<a>`;
-            }
-        });
-    })();
-    </script>
+    <script src="/assets/js/script.js"></script>
 
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60f392defb0a7974"></script>
 
