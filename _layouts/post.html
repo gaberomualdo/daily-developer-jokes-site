@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<ul class="posts" style="margin-top: 3.5rem;">
+  <div class="block" href="{{ page.url }}">
+    <p class="date">
+      {{ page.date | date: "%A, %B %-d, %Y" }}
+    </p>
+    {{ page.content }}
+  </div>
+</ul>

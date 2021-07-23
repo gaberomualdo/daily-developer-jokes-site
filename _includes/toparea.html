@@ -6,6 +6,7 @@ div.toparea {
     position: relative;
     height: auto;
     overflow: hidden;
+    padding: 0 .5rem;
 }
 div.toparea > h1 {
     font-size: 3rem;
@@ -56,9 +57,5 @@ div.toparea > div.row > p.right {
 
 <div class="toparea">
     <h1>{{ site.title }}</h1>
-    <p>{{ site.short_description }}</p>
-    <div class="row">
-        <p class="left">Created by <a href="{{ site.author_url }}" target="_blank">{{ site.author }}</a></p>
-        <p class="right">Read about at <a href="{{ site.blog_post }}" target="_blank">this blog post</a></p>
-    </div>
+    <p>{{ site.short_description }} 500+ jokes to date!</p>
 </div>

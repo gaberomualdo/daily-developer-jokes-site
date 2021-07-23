@@ -1,0 +1,102 @@
+---
+layout: default
+---
+
+<style>
+
+.block {
+  padding-top: 1.25rem !important;
+}
+.block h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.block .btn {
+  box-sizing: border-box;
+  width: 400px;
+  max-width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: .75rem !important;
+  padding: 0.75rem 1rem;
+  line-height: 1;
+}
+.block .btn.disabled {
+  display: none;
+}
+.block a.btn {
+  cursor: pointer;
+  background-color: #2188ff;
+  color: #fff;
+  text-decoration: none;
+  transition: all .2s;
+}
+.block a.btn:hover {
+  background-color: #2166ff;
+}
+.block span.btn {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.datepicker-inline {
+  text-align: center;
+  margin-bottom: 1.5rem !important;
+}
+.datepicker-picker {
+  border: 1px solid #dedede;
+}
+
+@media only screen and (max-width: 768px) {
+  .block a.btn span {
+    display: none;
+  }
+}
+
+
+</style>
+
+<ul class="posts" style="margin-top: 3.5rem;">
+  <div class="block">
+    <h1>Select a Date</h1>
+    <div class="picker"></div>
+    <a class="disabled btn">View Joke <span></span> &rarr;</a>
+    <span class="disabled btn">Sorry, we don't have a joke for that date.</span>
+  </div>
+  
+  <script>
+    const datepicker = new Datepicker(document.querySelector('.picker'), {
+      minDate: "January 12, 2020",
+      maxDate: "{{ site.posts.first.date | date: "%B %-d, %Y" }}"
+    });
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    setInterval(() => {
+      const d = datepicker.getDate();
+      if(!d) return;
+      const m = d.getMonth();
+      const y = d.getFullYear();
+      const day = d.getDate();
+      const month = months[m];
+      const dayOfWeek = days[d.getDay()];
+      let res = `${dayOfWeek}, ${month} ${day}, ${y}`;
+
+      document.querySelector('.block a.btn').classList.add('disabled');
+      document.querySelector('.block span.btn').classList.add('disabled');
+      
+      const dateIdx = dates.indexOf(res);
+      if(dateIdx > -1) {
+        res = "From " + res;
+        if(document.querySelector('.block a.btn').classList.contains('disabled'))
+          document.querySelector('.block a.btn').classList.remove('disabled');
+        if(document.querySelector('.block a.btn span').innerHTML !== res) {
+          document.querySelector('.block a.btn span').innerHTML = res;
+          document.querySelector('.block a.btn').setAttribute('href', urls[dateIdx]);
+        }
+      } else {
+        document.querySelector('.block span.btn').classList.remove('disabled');
+      }
+    }, 150);
+  </script>
+</ul>

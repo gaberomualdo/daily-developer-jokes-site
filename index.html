@@ -2,16 +2,55 @@
 layout: default
 ---
 
-{% include toparea.html %}
-{% include searchbar.html %}
+<style>
+.pagination {
+    height: 3rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 10%);
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination > * {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.pagination a {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.pagination a:first-child {
+    left: 1rem;
+}
+.pagination a:last-child {
+right: 1rem;
+}
+</style>
 
 <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
         {% include block.html %}
     {% endfor %}
 
-    {% assign psize = site.posts | size %}
-    {% if psize == 0 %} 
-    <p style="font-size: 1.5rem; font-weight: bold; letter-spacing: -.05rem; line-height: 1.5; text-align: center;">Jokes are coming on January 12, 2020!</p>
-    {% endif %}
+    <div class="pagination">
+        {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Prev</a>
+        {% else %}
+        {% endif %}
+        
+        <p>Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
+
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | relative_url }}">Next &rarr;</a>
+        {% else %}
+        {% endif %}
+    </div>
 </ul>
