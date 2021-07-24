@@ -21,7 +21,11 @@ function pad(str, max) {
   Array.from(document.querySelectorAll('div.block p')).forEach((element) => {
     if (!element.querySelector('img')) {
       element.innerHTML = element.innerHTML.split('_').join('');
-      if (element.innerText.startsWith('Have a joke idea for a future post?')) element.outerHTML = '';
+
+      const startsWithsToIgnore = ['Have a joke idea for a future post?', 'For more jokes, and to submit your own joke']
+      startsWithsToIgnore.forEach((e) => {
+        if (element.innerText.startsWith(e)) element.outerHTML = '';
+      })
     }
   });
   Array.from(document.querySelectorAll('div.block p em')).forEach((element) => {
