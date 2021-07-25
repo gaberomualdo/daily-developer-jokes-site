@@ -15,6 +15,8 @@ function pad(str, max) {
     document.querySelector('.nav .button:nth-child(2)').classList.add('active');
   } else if (window.location.pathname.endsWith('find.html')) {
     document.querySelector('.nav .button:nth-child(3)').classList.add('active');
+  } else if (window.location.pathname.endsWith('notify.html')) {
+    document.querySelector('.nav .button:nth-child(6)').classList.add('active');
   }
 
   // block fixes
