@@ -1,0 +1,27 @@
+---
+date: 2022-01-10
+title: 'Joke'
+joke: >
+  ___Q:___ Whats the object-oriented way to become wealthy?
+  
+  ___A:___ Inheritance
+---
+
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1258a197fb7.png)
+
+---
+
+For more jokes, and to submit your own joke to get featured, check out the [Daily Developer Jokes Website](https://dailydeveloperjokes.github.io/). We're also open sourced, so feel free to view [our GitHub Profile](https://github.com/dailydeveloperjokes).
+
+
+_This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit._
+
+<!--
+Joke text:
+**Q:** Whats the object-oriented way to become wealthy?
+
+**A:** Inheritance
+ -->
+
+
