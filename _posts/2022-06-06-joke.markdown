@@ -1,0 +1,27 @@
+---
+date: 2022-06-06
+title: 'Joke'
+joke: >
+  ___Q___: Did you here about the witch who was off by two when casting a hex?
+  
+  ___A___: They failed to make the target DEAD and made them DEAF instead!
+---
+
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e1259d54c109.png)
+
+---
+
+For more jokes, and to submit your own joke to get featured, check out the [Daily Developer Jokes Website](https://dailydeveloperjokes.github.io/). We're also open sourced, so feel free to view [our GitHub Profile](https://github.com/dailydeveloperjokes).
+
+
+_This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit._
+
+<!--
+Joke text:
+**Q**: Did you here about the witch who was off by two when casting a hex?
+
+**A**: They failed to make the target DEAD and made them DEAF instead!
+ -->
+
+
