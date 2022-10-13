@@ -1,0 +1,27 @@
+---
+date: 2022-10-13
+title: 'Joke'
+joke: >
+  ___Q:___ What do computers love to do at the beach?
+  
+  ___A:___ Put on some spam block for protection so they can safely surf the net while catching some .WAVs!
+---
+
+
+![Joke Image](https://private.xtrp.io/projects/DailyDeveloperJokes/public_image_server/images/5e12590d3e5c1.png)
+
+---
+
+For more jokes, and to submit your own joke to get featured, check out the [Daily Developer Jokes Website](https://dailydeveloperjokes.github.io/). We're also open sourced, so feel free to view [our GitHub Profile](https://github.com/dailydeveloperjokes).
+
+
+_This joke comes from [Dad-Jokes GitHub Repo by Wes Bos](https://github.com/wesbos/dad-jokes) (thank you!), whose owner has given me permission to use this joke with credit._
+
+<!--
+Joke text:
+**Q:** What do computers love to do at the beach?
+
+**A:** Put on some spam block for protection so they can safely surf the net while catching some .WAVs!
+ -->
+
+
